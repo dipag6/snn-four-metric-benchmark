@@ -1,0 +1,66 @@
+{
+ "tag": "fmnist_qcfs_direct_gated_T4_s1337",
+ "pathway": "qcfs",
+ "T": 4,
+ "seed": 1337,
+ "encoding": "direct",
+ "accuracy": 90.32,
+ "n_test": 10000,
+ "n_mac_ann": 4241152,
+ "n_params": 422090,
+ "n_spiking_sites": 37770,
+ "spike_rate_per_layer": {
+  "sn1": 0.05309339425223214,
+  "sn2": 0.18669714405293367,
+  "sn3": 0.2099525390625
+ },
+ "spike_rate_mean": 0.14991435912255527,
+ "sop_breakdown": {
+  "conv1": {
+   "kind": "MAC",
+   "ops": 903168,
+   "input_spikes": null,
+   "fanout": 288.0
+  },
+  "conv2": {
+   "kind": "AC",
+   "ops": 1663091.0784,
+   "input_spikes": 2887.3109,
+   "fanout": 576.0
+  },
+  "fc1": {
+   "kind": "AC",
+   "ops": 642453.76,
+   "input_spikes": 5019.17,
+   "fanout": 128.0
+  },
+  "fc2": {
+   "kind": "AC",
+   "ops": 1074.9569999999999,
+   "input_spikes": 107.4957,
+   "fanout": 10.0
+  }
+ },
+ "n_sop": 2306619.7953999997,
+ "n_mac_residue": 903168.0,
+ "e_ann_uj": 19.5092992,
+ "e_th_uj": 6.230530615859999,
+ "e_si_uj": 8.514084213305999,
+ "reduction_th": 3.131242008559994,
+ "reduction_si": 2.2914148734294213,
+ "pct_saving_th": 68.06379074928535,
+ "pct_saving_si": 56.358841360606135,
+ "encoding_binary": false,
+ "latency_gpu_ms": 0.05602654339844193,
+ "latency_cpu_ms": 5.647872394999922,
+ "latency_neuromorphic_projected_ms": 0.014006635849610483,
+ "warnings": [],
+ "edp_th": 35.18924187151755,
+ "edp_si": 48.08646119703558,
+ "aep_th": 0.6031153636152486,
+ "aep_si": 0.8241633518480216,
+ "source_ann_accuracy": 91.86,
+ "acc_spike_maxpool": 89.59,
+ "pooling": "gated_maxpool_rueckauer2017",
+ "latency_note": "GPU shared with CIFAR-100 training; latency not reportable (G3)"
+}

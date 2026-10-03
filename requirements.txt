@@ -1,0 +1,10 @@
+# MR604 four-metric SNN benchmark
+# Torch is NOT pinned here: on Colab use the preinstalled CUDA build.
+# For a local install pick the wheel matching your CUDA from pytorch.org.
+
+spikingjelly==0.0.0.0.14
+fvcore>=0.1.5
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+tqdm>=4.66

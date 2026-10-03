@@ -1,0 +1,108 @@
+{
+ "tag": "qcfs_direct_gated_T2_s42",
+ "pathway": "qcfs",
+ "T": 2,
+ "seed": 42,
+ "encoding": "direct",
+ "accuracy": 79.95,
+ "n_test": 10000,
+ "n_mac_ann": 153031680,
+ "n_params": 9494794,
+ "n_spiking_sites": 152074,
+ "spike_rate_per_layer": {
+  "sn1": 0.13436368484497072,
+  "sn2": 0.16008777923583983,
+  "sn3": 0.2239712646484375,
+  "sn4": 0.18302179260253906,
+  "sn5": 0.24671812744140625,
+  "sn6": 0.29736464233398435,
+  "sn7": 0.2769546142578125,
+  "sn8": 0.152760498046875,
+  "sn9": 0.3078171875
+ },
+ "spike_rate_mean": 0.2203399545457628,
+ "sop_breakdown": {
+  "conv1": {
+   "kind": "MAC",
+   "ops": 3538944,
+   "input_spikes": null,
+   "fanout": 576.0
+  },
+  "conv2": {
+   "kind": "AC",
+   "ops": 8459048.332799999,
+   "input_spikes": 7342.9239,
+   "fanout": 1152.0
+  },
+  "conv3": {
+   "kind": "AC",
+   "ops": 11335553.5104,
+   "input_spikes": 4919.9451,
+   "fanout": 2304.0
+  },
+  "conv4": {
+   "kind": "AC",
+   "ops": 16909264.2816,
+   "input_spikes": 7339.0904,
+   "fanout": 2304.0
+  },
+  "conv5": {
+   "kind": "AC",
+   "ops": 14180814.950399999,
+   "input_spikes": 3077.4338,
+   "fanout": 4608.0
+  },
+  "conv6": {
+   "kind": "AC",
+   "ops": 18626594.9184,
+   "input_spikes": 4042.2298,
+   "fanout": 4608.0
+  },
+  "conv7": {
+   "kind": "AC",
+   "ops": 12028340.736,
+   "input_spikes": 2610.317,
+   "fanout": 4608.0
+  },
+  "conv8": {
+   "kind": "AC",
+   "ops": 5227343.3088,
+   "input_spikes": 1134.4061,
+   "fanout": 4608.0
+  },
+  "fc1": {
+   "kind": "AC",
+   "ops": 280721.5104,
+   "input_spikes": 548.2842,
+   "fanout": 512.0
+  },
+  "fc2": {
+   "kind": "AC",
+   "ops": 3152.048,
+   "input_spikes": 315.2048,
+   "fanout": 10.0
+  }
+ },
+ "n_sop": 87050833.59679998,
+ "n_mac_residue": 3538944.0,
+ "e_ann_uj": 703.945728,
+ "e_th_uj": 94.62489263711998,
+ "e_si_uj": 180.80521789795196,
+ "reduction_th": 7.439329212235769,
+ "reduction_si": 3.8933927692137353,
+ "pct_saving_th": 86.55792785248354,
+ "pct_saving_si": 74.31546059500315,
+ "encoding_binary": false,
+ "latency_gpu_ms": 0.17467879042968093,
+ "latency_cpu_ms": 23.961521295004786,
+ "latency_neuromorphic_projected_ms": 0.08733939521484047,
+ "warnings": [],
+ "edp_th": 2267.356379961892,
+ "edp_si": 4332.368078909756,
+ "aep_th": 18.97229097374256,
+ "aep_si": 36.25144618853937,
+ "source_ann_accuracy": 83.64,
+ "conversion_loss_pp": 3.6899999999999977,
+ "input_encoding": "direct",
+ "pooling": "gated_maxpool_rueckauer2017"
+}

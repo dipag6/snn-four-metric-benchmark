@@ -1,0 +1,24 @@
+{
+  "tag": "ann_int4",
+  "pathway": "ann",
+  "bits": 4,
+  "seeds": [
+    42,
+    123,
+    789
+  ],
+  "accuracy": 97.67333333333333,
+  "accuracy_sd": 1.4450720858605393,
+  "accuracies": [
+    98.62,
+    96.01,
+    98.39
+  ],
+  "e_th_uj": 0.3048328,
+  "e_si_uj": 0.3048328,
+  "latency_gpu_ms": NaN,
+  "latency_cpu_ms": NaN,
+  "latency_measured": false,
+  "host_device": "cpu",
+  "method": "post-training quantisation, symmetric per-tensor weights, unsigned per-tensor activations, 16 calibration batches"
+}

@@ -1,0 +1,2661 @@
+{
+  "per_run": {
+    "ann_s123": {
+      "G1_theoretical": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G1_calibrated": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.13442470011125326,
+        "mean": 92.498,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.0
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "ann_s1337": {
+      "G1_theoretical": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G1_calibrated": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.13442470011125326,
+        "mean": 92.498,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.0
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "ann_s42": {
+      "G1_theoretical": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G1_calibrated": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.13442470011125326,
+        "mean": 92.498,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.0
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "ann_s456": {
+      "G1_theoretical": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G1_calibrated": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.13442470011125326,
+        "mean": 92.498,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.0
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "ann_s789": {
+      "G1_theoretical": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G1_calibrated": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.13442470011125326,
+        "mean": 92.498,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.0
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_T2_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.23321640625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.23321640625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 2.6189215337615592,
+        "mean": 51.87,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T2_s1337": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.22356640625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.22356640625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 2.6189215337615592,
+        "mean": 51.87,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T2_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.20003203125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.20003203125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 2.6189215337615592,
+        "mean": 51.87,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T2_s456": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.22235859375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.22235859375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 2.6189215337615592,
+        "mean": 51.87,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T2_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.212883984375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.212883984375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 2.6189215337615592,
+        "mean": 51.87,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T4_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2467650390625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2467650390625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.409931084347603,
+        "mean": 65.816,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T4_s1337": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2369447265625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2369447265625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.409931084347603,
+        "mean": 65.816,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T4_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.248195703125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.248195703125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.409931084347603,
+        "mean": 65.816,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T4_s456": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2351212890625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2351212890625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.409931084347603,
+        "mean": 65.816,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T4_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2422580078125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2422580078125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.409931084347603,
+        "mean": 65.816,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T8_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.1929720703125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.1929720703125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.0985367514360718,
+        "mean": 64.474,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T8_s1337": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.18833056640625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.18833056640625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.0985367514360718,
+        "mean": 64.474,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T8_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.188419921875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.188419921875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.0985367514360718,
+        "mean": 64.474,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T8_s456": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.1846095703125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.1846095703125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.0985367514360718,
+        "mean": 64.474,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T8_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.1934068359375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.1934068359375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.0985367514360718,
+        "mean": 64.474,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_direct_T2_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.226869921875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.226869921875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.4858703530778566,
+        "mean": 89.532,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.3842390504476338
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T2_s1337": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.21868984375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.21868984375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.4858703530778566,
+        "mean": 89.532,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.3801193418987567
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T2_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.22306484375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.22306484375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.4858703530778566,
+        "mean": 89.532,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.386701255203291
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T2_s456": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.2352328125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.2352328125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.4858703530778566,
+        "mean": 89.532,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.3980749553615746
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T2_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.221919921875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.221919921875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.4858703530778566,
+        "mean": 89.532,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.395254851091013
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T4_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.2318212890625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.2318212890625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.43362426131387205,
+        "mean": 89.174,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.3919099108206454
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T4_s1337": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.2144455078125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.2144455078125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.43362426131387205,
+        "mean": 89.174,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.3900947234475374
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T4_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.2430115234375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.2430115234375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.43362426131387205,
+        "mean": 89.174,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.3843497538861298
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T4_s456": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.214644140625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.214644140625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.43362426131387205,
+        "mean": 89.174,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.4208028011558533
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T4_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.23063515625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.23063515625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.43362426131387205,
+        "mean": 89.174,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.4235199434784869
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T8_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.17572177734375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.17572177734375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.581274461850856,
+        "mean": 89.37400000000001,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.3986277536171832
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T8_s1337": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.17453359375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.17453359375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.581274461850856,
+        "mean": 89.37400000000001,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.3943023305273
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T8_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.17623564453125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.17623564453125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.581274461850856,
+        "mean": 89.37400000000001,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.394182562067863
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T8_s456": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.16169482421875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.16169482421875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.581274461850856,
+        "mean": 89.37400000000001,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.405550567319744
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T8_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.18415380859375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.18415380859375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.581274461850856,
+        "mean": 89.37400000000001,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.400295235202213
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "stbp_T16_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.3194444444444444,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.24355478515625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.15211640211640212,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.24355478515625,
+            "threshold": 0.15211640211640212
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.24355478515625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.18753666308218456,
+        "mean": 91.632,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": false
+    },
+    "stbp_T16_s1337": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.3194444444444444,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.239887890625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.15211640211640212,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.239887890625,
+            "threshold": 0.15211640211640212
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.239887890625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.18753666308218456,
+        "mean": 91.632,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": false
+    },
+    "stbp_T16_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.3194444444444444,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.24205625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.15211640211640212,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.24205625,
+            "threshold": 0.15211640211640212
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.24205625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.18753666308218456,
+        "mean": 91.632,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": false
+    },
+    "stbp_T16_s456": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.3194444444444444,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.239721923828125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.15211640211640212,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.239721923828125,
+            "threshold": 0.15211640211640212
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.239721923828125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.18753666308218456,
+        "mean": 91.632,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": false
+    },
+    "stbp_T16_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.3194444444444444,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.239260205078125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.15211640211640212,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.239260205078125,
+            "threshold": 0.15211640211640212
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.239260205078125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.18753666308218456,
+        "mean": 91.632,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": false
+    },
+    "stbp_T4_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2107255859375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2107255859375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10922453936730857,
+        "mean": 90.304,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "stbp_T4_s1337": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.21036796875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.21036796875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10922453936730857,
+        "mean": 90.304,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "stbp_T4_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2124818359375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2124818359375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10922453936730857,
+        "mean": 90.304,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "stbp_T4_s456": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2064865234375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2064865234375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10922453936730857,
+        "mean": 90.304,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "stbp_T4_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2138341796875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2138341796875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10922453936730857,
+        "mean": 90.304,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "stbp_T8_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.232459375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.232459375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10747092630102117,
+        "mean": 91.12,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "stbp_T8_s1337": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.22862568359375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.22862568359375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10747092630102117,
+        "mean": 91.12,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "stbp_T8_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2313166015625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.2313166015625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10747092630102117,
+        "mean": 91.12,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "stbp_T8_s456": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.22864755859375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.22864755859375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10747092630102117,
+        "mean": 91.12,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "stbp_T8_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.22906396484375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.22906396484375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10747092630102117,
+        "mean": 91.12,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    }
+  },
+  "summary": {
+    "ann_T0": {
+      "pathway": "ann",
+      "T": 0,
+      "n_seeds": 5,
+      "accuracy_mean": 92.498,
+      "accuracy_sd": 0.13442470011125326,
+      "spike_rate_mean": null,
+      "e_th_uj": 19.5092992,
+      "e_si_uj": 19.5092992,
+      "latency_gpu_ms": 0.31382020156272006,
+      "latency_cpu_ms": 0.7024329999997766,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.13442470011125326,
+        "mean": 92.498,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    },
+    "qcfs_T2": {
+      "pathway": "qcfs",
+      "T": 2,
+      "n_seeds": 5,
+      "accuracy_mean": 51.870000000000005,
+      "accuracy_sd": 2.6189215337615592,
+      "spike_rate_mean": 0.16412863839285713,
+      "e_th_uj": 2.403716511708,
+      "e_si_uj": 5.0478046745868,
+      "latency_gpu_ms": 0.8678190976564082,
+      "latency_cpu_ms": 2.810668133285314,
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 2.6189215337615592,
+        "mean": 51.87,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    },
+    "qcfs_T4": {
+      "pathway": "qcfs",
+      "T": 4,
+      "n_seeds": 5,
+      "accuracy_mean": 65.816,
+      "accuracy_sd": 3.409931084347603,
+      "spike_rate_mean": 0.16351401506696428,
+      "e_th_uj": 4.320937127592,
+      "e_si_uj": 9.0739679679432,
+      "latency_gpu_ms": 1.5183401398438434,
+      "latency_cpu_ms": 4.704968933310738,
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.409931084347603,
+        "mean": 65.816,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    },
+    "qcfs_T8": {
+      "pathway": "qcfs",
+      "T": 8,
+      "n_seeds": 5,
+      "accuracy_mean": 64.474,
+      "accuracy_sd": 3.0985367514360718,
+      "spike_rate_mean": 0.12927926907286352,
+      "e_th_uj": 7.360863861708,
+      "e_si_uj": 15.457814109586797,
+      "latency_gpu_ms": 2.9028558335941312,
+      "latency_cpu_ms": 9.274408666685002,
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 3.0985367514360718,
+        "mean": 64.474,
+        "n_seeds": 5,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    },
+    "qcfs_direct_T2": {
+      "pathway": "qcfs_direct",
+      "T": 2,
+      "n_seeds": 5,
+      "accuracy_mean": 89.532,
+      "accuracy_sd": 0.4858703530778566,
+      "spike_rate_mean": 0.1571427341092687,
+      "e_th_uj": 3.21354322668,
+      "e_si_uj": 4.463425736028,
+      "latency_gpu_ms": 0.7975961445310986,
+      "latency_cpu_ms": 2.63753133337256,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.4858703530778566,
+        "mean": 89.532,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    },
+    "qcfs_direct_T4": {
+      "pathway": "qcfs_direct",
+      "T": 4,
+      "n_seeds": 5,
+      "accuracy_mean": 89.174,
+      "accuracy_sd": 0.43362426131387205,
+      "spike_rate_mean": 0.1588845693824405,
+      "e_th_uj": 6.552313127532,
+      "e_si_uj": 9.189827487817201,
+      "latency_gpu_ms": 1.4961936210937665,
+      "latency_cpu_ms": 4.901604666671726,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.43362426131387205,
+        "mean": 89.174,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    },
+    "qcfs_direct_T8": {
+      "pathway": "qcfs_direct",
+      "T": 8,
+      "n_seeds": 5,
+      "accuracy_mean": 89.374,
+      "accuracy_sd": 0.581274461850856,
+      "spike_rate_mean": 0.12776459864609907,
+      "e_th_uj": 13.031485811063998,
+      "e_si_uj": 18.2260600432344,
+      "latency_gpu_ms": 2.8681972664063693,
+      "latency_cpu_ms": 9.243836533308542,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.581274461850856,
+        "mean": 89.37400000000001,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    },
+    "stbp_T16": {
+      "pathway": "stbp",
+      "T": 16,
+      "n_seeds": 5,
+      "accuracy_mean": 91.632,
+      "accuracy_sd": 0.18753666308218456,
+      "spike_rate_mean": 0.12474703143269025,
+      "e_th_uj": 10.402897023791999,
+      "e_si_uj": 21.846083749963196,
+      "latency_gpu_ms": 7.690599174218704,
+      "latency_cpu_ms": 28.515888400033873,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.18753666308218456,
+        "mean": 91.632,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": false
+    },
+    "stbp_T4": {
+      "pathway": "stbp",
+      "T": 4,
+      "n_seeds": 5,
+      "accuracy_mean": 90.304,
+      "accuracy_sd": 0.10922453936730857,
+      "spike_rate_mean": 0.11136646437872025,
+      "e_th_uj": 2.4758933084640002,
+      "e_si_uj": 5.199375947774401,
+      "latency_gpu_ms": 1.9399945859369438,
+      "latency_cpu_ms": 5.774411599971548,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10922453936730857,
+        "mean": 90.304,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    },
+    "stbp_T8": {
+      "pathway": "stbp",
+      "T": 8,
+      "n_seeds": 5,
+      "accuracy_mean": 91.11999999999999,
+      "accuracy_sd": 0.10747092630102117,
+      "spike_rate_mean": 0.11931788075972576,
+      "e_th_uj": 5.096676516012001,
+      "e_si_uj": 10.703020683625198,
+      "latency_gpu_ms": 3.7110829148438995,
+      "latency_cpu_ms": 12.128612999943774,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.10747092630102117,
+        "mean": 91.12,
+        "n_seeds": 5,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    }
+  }
+}
