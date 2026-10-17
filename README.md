@@ -1,7 +1,7 @@
 # snn-four-metric-benchmark
 
 Code and result files for the MR604 Master of ICT Research thesis
-*Spiking Neural Networks for Image Recognition: A Four-Metric Benchmark of STBP Direct Training and QCFS Conversion with Enforced Energy-Validity Gates*
+*Spiking Neural Networks for Image Recognition*
 (Deepak Gajmer, MIT251589, Melbourne Institute of Technology, 2026).
 
 The benchmark (U4M-T) reports four metrics for every configuration (top-1 accuracy, latency per platform, per-layer spike rate, and energy at 0.9 pJ and 1.89 pJ per synaptic operation) and applies four validity gates before any energy figure is used:
@@ -30,16 +30,17 @@ The benchmark (U4M-T) reports four metrics for every configuration (top-1 accura
 | Folder | Platform | Thesis |
 |---|---|---|
 | `results/primary_rtx5070` | RTX 5070 Laptop | Tables 4.1–4.4, F.1–F.3, F.14 |
-| `results/arms_rtx5070` | RTX 5070 Laptop | Table 4.1 quantised rows, Tables F.11, F.12 |
+| `results/arms_rtx5070` | RTX 5070 Laptop | Table 4.1 quantised rows, Section 4.3 escalation (`_quant_escalation.json`), Tables F.11, F.12 |
 | `results/replication_a100` | A100-SXM4-40GB | Tables F.5–F.8, F.16 |
 | `results/multidataset_rtx5070` | RTX 5070 Laptop (corrected pass) | Tables 4.7–4.9 |
 | `results/gatedpool_mnistfamily_l4` | L4, inference only | Table 4.5 |
 | `results/cifar10_l4`, `results/cifar100_l4` | L4 (Colab) | Tables 4.10, 4.11, F.17 |
-| `results/_superseded` | — | not used for any reported figure |
+
+The NVIDIA T4 result sets and the quarantined 17 August run listed in the thesis (Appendix E) are not in this repository.
 
 Check value: the mean `edp_th` of `results/primary_rtx5070/stbp_T4_s*.json` is 6.9968 (thesis Table F.3: 6.997).
 
-Trained weights are large and are published as release assets, not in the git tree.
+Trained weights are not in the git tree. The MNIST checkpoints of the primary grid, the A100 replication and the diagnostic arms are assets of the [v1.0 release](https://github.com/dipag6/snn-four-metric-benchmark/releases/tag/v1.0); its `MANIFEST.md` maps each checkpoint to its result file and lists what the release does not contain.
 
 ## Install
 
