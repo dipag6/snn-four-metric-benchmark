@@ -1,0 +1,56 @@
+{
+  "ann_int8": {
+    "bits": 8,
+    "seeds": [
+      42,
+      123,
+      789,
+      456,
+      1337
+    ],
+    "accuracies": [
+      99.31,
+      99.18,
+      99.25,
+      99.34,
+      99.21
+    ],
+    "mean": 99.258,
+    "sd": 0.06685805860178773,
+    "mean_3seed": 99.24666666666667,
+    "sd_3seed": 0.06506407098647472,
+    "G2_pass_3seed": true,
+    "G2_pass": true,
+    "e_th_uj": 1.2193312,
+    "e_si_uj": 1.2193312,
+    "latency_measured": false,
+    "method": "post-training quantisation, symmetric per-tensor weights, unsigned per-tensor activations, 16 calibration batches; BatchNorm folded before quantisation"
+  },
+  "ann_int4": {
+    "bits": 4,
+    "seeds": [
+      42,
+      123,
+      789,
+      456,
+      1337
+    ],
+    "accuracies": [
+      98.62,
+      96.01,
+      98.39,
+      99.1,
+      98.83
+    ],
+    "mean": 98.19,
+    "sd": 1.2464950862317878,
+    "mean_3seed": 97.67333333333333,
+    "sd_3seed": 1.4450720858605393,
+    "G2_pass_3seed": false,
+    "G2_pass": false,
+    "e_th_uj": 0.3048328,
+    "e_si_uj": 0.3048328,
+    "latency_measured": false,
+    "method": "post-training quantisation, symmetric per-tensor weights, unsigned per-tensor activations, 16 calibration batches; BatchNorm folded before quantisation"
+  }
+}
