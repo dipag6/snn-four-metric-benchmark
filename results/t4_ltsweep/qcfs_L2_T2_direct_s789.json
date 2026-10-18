@@ -1,0 +1,73 @@
+{
+  "tag": "qcfs_L2_T2_direct_s789",
+  "pathway": "qcfs",
+  "T": 2,
+  "seed": 789,
+  "encoding": "direct",
+  "accuracy": 98.4,
+  "n_test": 10000,
+  "n_mac_ann": 4241152,
+  "n_params": 422090,
+  "n_spiking_sites": 37770,
+  "latency_gpu_ms": 0.024400325781215315,
+  "latency_cpu_ms": 3.9941991999967286,
+  "latency_neuromorphic_projected_ms": 0.012200162890607658,
+  "spike_rate_per_layer": {
+    "sn1": 0.03127417291135204,
+    "sn2": 0.07115847815688775,
+    "sn3": 0.1588796875
+  },
+  "spike_rate_mean": 0.08710411285607993,
+  "sop_breakdown": {
+    "conv1": {
+      "kind": "MAC",
+      "ops": 451584,
+      "input_spikes": null,
+      "fanout": 288.0
+    },
+    "conv2": {
+      "kind": "AC",
+      "ops": 565039.872,
+      "input_spikes": 980.972,
+      "fanout": 576.0
+    },
+    "fc1": {
+      "kind": "AC",
+      "ops": 153275.5712,
+      "input_spikes": 1197.4654,
+      "fanout": 128.0
+    },
+    "fc2": {
+      "kind": "AC",
+      "ops": 406.732,
+      "input_spikes": 40.6732,
+      "fanout": 10.0
+    }
+  },
+  "n_sop": 718722.1751999999,
+  "n_mac_residue": 451584.0,
+  "e_ann_uj": 19.5092992,
+  "e_th_uj": 2.72413635768,
+  "e_si_uj": 3.435671311128,
+  "reduction_th": 7.161645614764681,
+  "reduction_si": 5.678453330739227,
+  "pct_saving_th": 86.0367287940307,
+  "pct_saving_si": 82.38957086101792,
+  "encoding_binary": false,
+  "warnings": [],
+  "edp_th": 10.880743260527458,
+  "edp_si": 13.722755602359168,
+  "aep_th": 0.04358618172287974,
+  "aep_si": 0.05497074097804767,
+  "L": 2,
+  "input_encoding": "direct",
+  "source_ann_accuracy": 98.94,
+  "conversion_loss_pp": 0.539999999999992,
+  "qcfs_lambdas": [
+    5.196117447448731,
+    4.923783348632813,
+    5.800838993621826
+  ],
+  "L_equals_T": true,
+  "latency_note": "reduced repetition counts; indicative only, not comparable with Chapter 5 latency under gate G3"
+}

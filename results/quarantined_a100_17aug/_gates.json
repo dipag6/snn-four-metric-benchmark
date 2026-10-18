@@ -1,0 +1,1966 @@
+{
+  "per_run": {
+    "ann_s123": {
+      "G1_theoretical": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G1_calibrated": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.03214550253663826,
+        "mean": 99.28333333333333,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.0
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "ann_s42": {
+      "G1_theoretical": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G1_calibrated": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.03214550253663826,
+        "mean": 99.28333333333333,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.0
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "ann_s789": {
+      "G1_theoretical": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G1_calibrated": {
+        "applicable": false,
+        "passed": null,
+        "threshold": null,
+        "violations": []
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.03214550253663826,
+        "mean": 99.28333333333333,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.0
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_T2_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.709864453125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.709864453125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 2.8499356717886366,
+        "mean": 88.97333333333333,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T2_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.661347265625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.661347265625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 2.8499356717886366,
+        "mean": 88.97333333333333,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T2_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.690635546875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.690635546875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 2.8499356717886366,
+        "mean": 88.97333333333333,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T4_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.9816673828125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.9816673828125,
+            "threshold": 0.6084656084656085
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.9816673828125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 1.9488714683118513,
+        "mean": 90.23,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T4_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.935075390625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.935075390625,
+            "threshold": 0.6084656084656085
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.935075390625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 1.9488714683118513,
+        "mean": 90.23,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T4_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.8082123046875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.8082123046875,
+            "threshold": 0.6084656084656085
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.8082123046875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 1.9488714683118513,
+        "mean": 90.23,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T8_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.930421875,
+            "threshold": 0.6388888888888888
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.930421875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn2",
+            "rate": 0.38473984275350764,
+            "threshold": 0.30423280423280424
+          },
+          {
+            "layer": "sn3",
+            "rate": 0.930421875,
+            "threshold": 0.30423280423280424
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.930421875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 1.4052401929919298,
+        "mean": 93.69,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T8_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.830124609375,
+            "threshold": 0.6388888888888888
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.830124609375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn1",
+            "rate": 0.32952867755500637,
+            "threshold": 0.30423280423280424
+          },
+          {
+            "layer": "sn2",
+            "rate": 0.35278321408641583,
+            "threshold": 0.30423280423280424
+          },
+          {
+            "layer": "sn3",
+            "rate": 0.830124609375,
+            "threshold": 0.30423280423280424
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.830124609375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 1.4052401929919298,
+        "mean": 93.69,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_T8_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.81956328125,
+            "threshold": 0.6388888888888888
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.81956328125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn1",
+            "rate": 0.33538209652024875,
+            "threshold": 0.30423280423280424
+          },
+          {
+            "layer": "sn2",
+            "rate": 0.3747568967235332,
+            "threshold": 0.30423280423280424
+          },
+          {
+            "layer": "sn3",
+            "rate": 0.81956328125,
+            "threshold": 0.30423280423280424
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 0.81956328125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 1.4052401929919298,
+        "mean": 93.69,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_direct_T2_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.887171875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.887171875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.19857828011475387,
+        "mean": 98.54333333333334,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.841064850798601
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T2_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.859088671875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.859088671875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.19857828011475387,
+        "mean": 98.54333333333334,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.8386758311690534
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T2_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 2.5555555555555554,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.93337890625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.216931216931217,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 451584.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.93337890625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.19857828011475387,
+        "mean": 98.54333333333334,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.8473705531930962
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": true
+    },
+    "qcfs_direct_T4_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.955880078125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.955880078125,
+            "threshold": 0.6084656084656085
+          }
+        ],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": false,
+        "max_rate": 0.955880078125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.7794870107962039,
+        "mean": 97.57000000000001,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.7977950045165831
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": false
+    },
+    "qcfs_direct_T4_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.9377783203125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.9377783203125,
+            "threshold": 0.6084656084656085
+          }
+        ],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": false,
+        "max_rate": 0.9377783203125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.7794870107962039,
+        "mean": 97.57000000000001,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.7953879112197701
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": false
+    },
+    "qcfs_direct_T4_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": true,
+        "max_rate": 0.846556640625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.846556640625,
+            "threshold": 0.6084656084656085
+          }
+        ],
+        "mac_residue": 903168.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": false,
+        "max_rate": 0.846556640625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.7794870107962039,
+        "mean": 97.57000000000001,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.818436442999781
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": false
+    },
+    "qcfs_direct_T8_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.91132197265625,
+            "threshold": 0.6388888888888888
+          }
+        ],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": false,
+        "max_rate": 0.91132197265625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn2",
+            "rate": 0.3728917321029975,
+            "threshold": 0.30423280423280424
+          },
+          {
+            "layer": "sn3",
+            "rate": 0.91132197265625,
+            "threshold": 0.30423280423280424
+          }
+        ],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": false,
+        "max_rate": 0.91132197265625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.40278199231511547,
+        "mean": 97.22666666666666,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.8035885767270559
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_direct_T8_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.8065861328125,
+            "threshold": 0.6388888888888888
+          }
+        ],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": false,
+        "max_rate": 0.8065861328125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn2",
+            "rate": 0.3556064512914541,
+            "threshold": 0.30423280423280424
+          },
+          {
+            "layer": "sn3",
+            "rate": 0.8065861328125,
+            "threshold": 0.30423280423280424
+          }
+        ],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": false,
+        "max_rate": 0.8065861328125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.40278199231511547,
+        "mean": 97.22666666666666,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.8110896446139373
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "qcfs_direct_T8_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 0.80578779296875,
+            "threshold": 0.6388888888888888
+          }
+        ],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": false,
+        "max_rate": 0.80578779296875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn2",
+            "rate": 0.3631454091597576,
+            "threshold": 0.30423280423280424
+          },
+          {
+            "layer": "sn3",
+            "rate": 0.80578779296875,
+            "threshold": 0.30423280423280424
+          }
+        ],
+        "mac_residue": 1806336.0,
+        "closed_form_sufficient": false,
+        "direct_energy_below_ann": false,
+        "max_rate": 0.80578779296875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.40278199231511547,
+        "mean": 97.22666666666666,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 1.8238679738531887
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "stbp_T16_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.3194444444444444,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn2",
+            "rate": 0.4104896818199936,
+            "threshold": 0.3194444444444444
+          },
+          {
+            "layer": "sn3",
+            "rate": 1.14754873046875,
+            "threshold": 0.3194444444444444
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.14754873046875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.15211640211640212,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn1",
+            "rate": 0.2680277288942921,
+            "threshold": 0.15211640211640212
+          },
+          {
+            "layer": "sn2",
+            "rate": 0.4104896818199936,
+            "threshold": 0.15211640211640212
+          },
+          {
+            "layer": "sn3",
+            "rate": 1.14754873046875,
+            "threshold": 0.15211640211640212
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.14754873046875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.04041451884327807,
+        "mean": 99.37666666666667,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "stbp_T16_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.3194444444444444,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn2",
+            "rate": 0.41232990074936227,
+            "threshold": 0.3194444444444444
+          },
+          {
+            "layer": "sn3",
+            "rate": 1.101786279296875,
+            "threshold": 0.3194444444444444
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.101786279296875
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.15211640211640212,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn1",
+            "rate": 0.25821063805404976,
+            "threshold": 0.15211640211640212
+          },
+          {
+            "layer": "sn2",
+            "rate": 0.41232990074936227,
+            "threshold": 0.15211640211640212
+          },
+          {
+            "layer": "sn3",
+            "rate": 1.101786279296875,
+            "threshold": 0.15211640211640212
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.101786279296875
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.04041451884327807,
+        "mean": 99.37666666666667,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "stbp_T16_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.3194444444444444,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn2",
+            "rate": 0.38439154625717475,
+            "threshold": 0.3194444444444444
+          },
+          {
+            "layer": "sn3",
+            "rate": 1.105562158203125,
+            "threshold": 0.3194444444444444
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.105562158203125
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.15211640211640212,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn1",
+            "rate": 0.2649929587850765,
+            "threshold": 0.15211640211640212
+          },
+          {
+            "layer": "sn2",
+            "rate": 0.38439154625717475,
+            "threshold": 0.15211640211640212
+          },
+          {
+            "layer": "sn3",
+            "rate": 1.105562158203125,
+            "threshold": 0.15211640211640212
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.105562158203125
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.04041451884327807,
+        "mean": 99.37666666666667,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "stbp_T4_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.0169224609375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 1.0169224609375,
+            "threshold": 0.6084656084656085
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.0169224609375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.030550504633039058,
+        "mean": 99.29666666666667,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": false
+    },
+    "stbp_T4_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.11285
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 1.11285,
+            "threshold": 0.6084656084656085
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.11285
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.030550504633039058,
+        "mean": 99.29666666666667,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": false
+    },
+    "stbp_T4_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": true,
+        "threshold": 1.2777777777777777,
+        "non_binding": true,
+        "violations": [],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.214325390625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6084656084656085,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 1.214325390625,
+            "threshold": 0.6084656084656085
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.214325390625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.030550504633039058,
+        "mean": 99.29666666666667,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": true,
+      "admissible_calibrated": false
+    },
+    "stbp_T8_s123": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 1.15471943359375,
+            "threshold": 0.6388888888888888
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.15471943359375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn2",
+            "rate": 0.3439887505978954,
+            "threshold": 0.30423280423280424
+          },
+          {
+            "layer": "sn3",
+            "rate": 1.15471943359375,
+            "threshold": 0.30423280423280424
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.15471943359375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.08144527815247173,
+        "mean": 99.34333333333333,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.0999999999999996
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "stbp_T8_s42": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 1.09144541015625,
+            "threshold": 0.6388888888888888
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.09144541015625
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn2",
+            "rate": 0.3209656678491709,
+            "threshold": 0.30423280423280424
+          },
+          {
+            "layer": "sn3",
+            "rate": 1.09144541015625,
+            "threshold": 0.30423280423280424
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.09144541015625
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.08144527815247173,
+        "mean": 99.34333333333333,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    },
+    "stbp_T8_s789": {
+      "G1_theoretical": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.6388888888888888,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 1.11995693359375,
+            "threshold": 0.6388888888888888
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.11995693359375
+      },
+      "G1_calibrated": {
+        "applicable": true,
+        "passed": false,
+        "threshold": 0.30423280423280424,
+        "non_binding": false,
+        "violations": [
+          {
+            "layer": "sn3",
+            "rate": 1.11995693359375,
+            "threshold": 0.30423280423280424
+          }
+        ],
+        "mac_residue": 0,
+        "closed_form_sufficient": true,
+        "direct_energy_below_ann": null,
+        "max_rate": 1.11995693359375
+      },
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.08144527815247173,
+        "mean": 99.34333333333333,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G3": {
+        "applicable": true,
+        "passed": true,
+        "reported": [
+          "latency_gpu_ms",
+          "latency_cpu_ms",
+          "latency_neuromorphic_projected_ms"
+        ]
+      },
+      "G4": {
+        "applicable": true,
+        "passed": true,
+        "ratio_si_over_th": 2.1
+      },
+      "admissible_theoretical": false,
+      "admissible_calibrated": false
+    }
+  },
+  "summary": {
+    "ann_T0": {
+      "pathway": "ann",
+      "T": 0,
+      "n_seeds": 3,
+      "accuracy_mean": 99.28333333333335,
+      "accuracy_sd": 0.03214550253663826,
+      "spike_rate_mean": null,
+      "e_th_uj": 19.5092992,
+      "e_si_uj": 19.5092992,
+      "latency_gpu_ms": 0.003353249231778932,
+      "latency_cpu_ms": 0.5031951633342638,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.03214550253663826,
+        "mean": 99.28333333333333,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    },
+    "qcfs_T2": {
+      "pathway": "qcfs",
+      "T": 2,
+      "n_seeds": 3,
+      "accuracy_mean": 88.97333333333334,
+      "accuracy_sd": 2.8499356717886366,
+      "spike_rate_mean": 0.5518732012205924,
+      "e_th_uj": 10.620141460620003,
+      "e_si_uj": 22.302297067302003,
+      "latency_gpu_ms": 0.024102475585957944,
+      "latency_cpu_ms": 4.7522970500055335,
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 2.8499356717886366,
+        "mean": 88.97333333333333,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    },
+    "qcfs_T4": {
+      "pathway": "qcfs",
+      "T": 4,
+      "n_seeds": 3,
+      "accuracy_mean": 90.23,
+      "accuracy_sd": 1.9488714683118513,
+      "spike_rate_mean": 0.5469573848940619,
+      "e_th_uj": 16.52037101484,
+      "e_si_uj": 34.692779131163995,
+      "latency_gpu_ms": 0.04652869033852388,
+      "latency_cpu_ms": 8.931555369999842,
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 1.9488714683118513,
+        "mean": 90.23,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": false
+    },
+    "qcfs_T8": {
+      "pathway": "qcfs",
+      "T": 8,
+      "n_seeds": 3,
+      "accuracy_mean": 93.69,
+      "accuracy_sd": 1.4052401929919298,
+      "spike_rate_mean": 0.5165073163575326,
+      "e_th_uj": 31.414754499119997,
+      "e_si_uj": 65.97098444815201,
+      "latency_gpu_ms": 0.09149088522131403,
+      "latency_cpu_ms": 17.763065063330334,
+      "G2": {
+        "applicable": true,
+        "passed": false,
+        "sd": 1.4052401929919298,
+        "mean": 93.69,
+        "n_seeds": 3,
+        "escalate": true,
+        "note": "escalate to 5 seeds"
+      },
+      "G1_theoretical_all_pass": false,
+      "G1_calibrated_all_pass": false
+    },
+    "qcfs_direct_T2": {
+      "pathway": "qcfs_direct",
+      "T": 2,
+      "n_seeds": 3,
+      "accuracy_mean": 98.54333333333334,
+      "accuracy_sd": 0.19857828011475387,
+      "spike_rate_mean": 0.6047577500531462,
+      "e_th_uj": 8.87119188822,
+      "e_si_uj": 16.344487925262,
+      "latency_gpu_ms": 0.022241411080727858,
+      "latency_cpu_ms": 4.438636276669665,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.19857828011475387,
+        "mean": 98.54333333333334,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": true
+    },
+    "qcfs_direct_T4": {
+      "pathway": "qcfs_direct",
+      "T": 4,
+      "n_seeds": 3,
+      "accuracy_mean": 97.57000000000001,
+      "accuracy_sd": 0.7794870107962039,
+      "spike_rate_mean": 0.5252352364122732,
+      "e_th_uj": 15.4519906215,
+      "e_si_uj": 27.87915022515,
+      "latency_gpu_ms": 0.04297138584632876,
+      "latency_cpu_ms": 8.501052459996572,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.7794870107962039,
+        "mean": 97.57000000000001,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": false
+    },
+    "qcfs_direct_T8": {
+      "pathway": "qcfs_direct",
+      "T": 8,
+      "n_seeds": 3,
+      "accuracy_mean": 97.22666666666667,
+      "accuracy_sd": 0.40278199231511547,
+      "spike_rate_mean": 0.48621631396373655,
+      "e_th_uj": 31.857455655240003,
+      "e_si_uj": 57.760596716003995,
+      "latency_gpu_ms": 0.08525684085938678,
+      "latency_cpu_ms": 16.690766986660794,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.40278199231511547,
+        "mean": 97.22666666666666,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": false,
+      "G1_calibrated_all_pass": false
+    },
+    "stbp_T16": {
+      "pathway": "stbp",
+      "T": 16,
+      "n_seeds": 3,
+      "accuracy_mean": 99.37666666666667,
+      "accuracy_sd": 0.04041451884327807,
+      "spike_rate_mean": 0.5948155136142999,
+      "e_th_uj": 55.549937690760004,
+      "e_si_uj": 116.65486915059599,
+      "latency_gpu_ms": 0.20916633852863242,
+      "latency_cpu_ms": 41.65250195666886,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.04041451884327807,
+        "mean": 99.37666666666667,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": false,
+      "G1_calibrated_all_pass": false
+    },
+    "stbp_T4": {
+      "pathway": "stbp",
+      "T": 4,
+      "n_seeds": 3,
+      "accuracy_mean": 99.29666666666667,
+      "accuracy_sd": 0.030550504633039058,
+      "spike_rate_mean": 0.5148481088789683,
+      "e_th_uj": 11.21640502614,
+      "e_si_uj": 23.554450554894,
+      "latency_gpu_ms": 0.05125882365886033,
+      "latency_cpu_ms": 10.149212176669002,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.030550504633039058,
+        "mean": 99.29666666666667,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": true,
+      "G1_calibrated_all_pass": false
+    },
+    "stbp_T8": {
+      "pathway": "stbp",
+      "T": 8,
+      "n_seeds": 3,
+      "accuracy_mean": 99.34333333333332,
+      "accuracy_sd": 0.08144527815247173,
+      "spike_rate_mean": 0.5588819626581101,
+      "e_th_uj": 25.146647589780002,
+      "e_si_uj": 52.807959938538,
+      "latency_gpu_ms": 0.10192052480467358,
+      "latency_cpu_ms": 19.703572863333346,
+      "G2": {
+        "applicable": true,
+        "passed": true,
+        "sd": 0.08144527815247173,
+        "mean": 99.34333333333333,
+        "n_seeds": 3,
+        "escalate": false,
+        "note": ""
+      },
+      "G1_theoretical_all_pass": false,
+      "G1_calibrated_all_pass": false
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "tag": "stbp_T16_s42_reg",
+  "pathway": "stbp",
+  "T": 16,
+  "seed": 42,
+  "encoding": "rate",
+  "accuracy": 99.38,
+  "n_test": 10000,
+  "n_mac_ann": 4241152,
+  "n_params": 422090,
+  "n_spiking_sites": 37770,
+  "latency_gpu_ms": 0.2751445265624852,
+  "latency_cpu_ms": 30.00039927999751,
+  "latency_neuromorphic_projected_ms": 0.017196532910155327,
+  "spike_rate_per_layer": {
+    "sn1": 0.025340549017458545,
+    "sn2": 0.03387943987165178,
+    "sn3": 0.159200244140625
+  },
+  "spike_rate_mean": 0.07280674434324512,
+  "sop_breakdown": {
+    "conv1": {
+      "kind": "AC",
+      "ops": 478706.7744,
+      "input_spikes": 1662.1763,
+      "fanout": 288.0
+    },
+    "conv2": {
+      "kind": "AC",
+      "ops": 3938734.4832,
+      "input_spikes": 6838.0807,
+      "fanout": 576.0
+    },
+    "fc1": {
+      "kind": "AC",
+      "ops": 657090.4704,
+      "input_spikes": 5133.5193,
+      "fanout": 128.0
+    },
+    "fc2": {
+      "kind": "AC",
+      "ops": 3260.4210000000003,
+      "input_spikes": 326.0421,
+      "fanout": 10.0
+    }
+  },
+  "n_sop": 5077792.149,
+  "n_mac_residue": 0.0,
+  "e_ann_uj": 19.5092992,
+  "e_th_uj": 4.5700129341,
+  "e_si_uj": 9.59702716161,
+  "reduction_th": 4.268981178243007,
+  "reduction_si": 2.0328481801157174,
+  "pct_saving_th": 76.57520709867426,
+  "pct_saving_si": 50.80793490721594,
+  "encoding_binary": true,
+  "warnings": [],
+  "edp_th": 137.10221273775295,
+  "edp_si": 287.9146467492812,
+  "aep_th": 0.028334080191420433,
+  "aep_si": 0.05950156840198291,
+  "rate_penalty_lambda": 0.05,
+  "rate_target": 0.1216931216931217
+}

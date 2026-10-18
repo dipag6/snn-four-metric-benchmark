@@ -35,8 +35,15 @@ The benchmark (U4M-T) reports four metrics for every configuration (top-1 accura
 | `results/multidataset_rtx5070` | RTX 5070 Laptop (corrected pass) | Tables 4.7–4.9 |
 | `results/gatedpool_mnistfamily_l4` | L4, inference only | Table 4.5 |
 | `results/cifar10_l4`, `results/cifar100_l4` | L4 (Colab) | Tables 4.10, 4.11, F.17 |
+| `results/t4_third_platform` | NVIDIA T4 (Colab) | Table F.13 |
+| `results/t4_arms` | NVIDIA T4 (Colab) | Section 4.8 arms A, B and D; Section 4.3 second five-seed 4-bit escalation (`_quant_escalation.json`) |
+| `results/t4_ltsweep` | NVIDIA T4 (Colab), inference only | Tables 4.6, F.9, F.10 |
+| `results/arms_rtx5070/pooling_bias.md` | RTX 5070 Laptop | Table F.15 |
+| `results/quarantined_a100_17aug` | A100-SXM4-40GB | none (invalidated run, Section 3.16) |
 
-The NVIDIA T4 result sets and the quarantined 17 August run listed in the thesis (Appendix E) are not in this repository.
+The T4 networks are a separate training of the grid: the training history stored in each file of `results/t4_third_platform` matches neither the RTX 5070 grid nor the A100 replication. The quantisation-depth matrix (`results/t4_ltsweep`) and the second 4-bit escalation reuse those networks; the escalation adds two further conventional baselines at seeds 456 and 1337. No latency from a T4 run is used (gate G3).
+
+`results/quarantined_a100_17aug` is the first A100 replication attempt. Its spike counter also counted the latency benchmark's noise inputs, so its spike rates, energies and gate verdicts are wrong (thesis Section 3.16). It is kept so the fault can be checked, and no figure in the thesis uses it.
 
 Check value: the mean `edp_th` of `results/primary_rtx5070/stbp_T4_s*.json` is 6.9968 (thesis Table F.3: 6.997).
 
