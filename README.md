@@ -47,7 +47,7 @@ The T4 networks are a separate training of the grid: the training history stored
 
 Check value: the mean `edp_th` of `results/primary_rtx5070/stbp_T4_s*.json` is 6.9968 (thesis Table F.3: 6.997).
 
-Trained weights are not in the git tree. The MNIST checkpoints of the primary grid, the A100 replication and the diagnostic arms are assets of the [v1.0 release](https://github.com/dipag6/snn-four-metric-benchmark/releases/tag/v1.0); its `MANIFEST.md` maps each checkpoint to its result file and lists what the release does not contain.
+Trained weights are not in the git tree. The MNIST checkpoints of the primary grid, the A100 replication, the T4 grid, the quarantined 17 August run and the diagnostic arms, and the checkpoints of the MNIST-family grid, are assets of the [v1.0 release](https://github.com/dipag6/snn-four-metric-benchmark/releases/tag/v1.0); its `MANIFEST.md` maps each checkpoint to its result file and lists what the release does not contain.
 
 ## Install
 
